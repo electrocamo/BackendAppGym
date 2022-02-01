@@ -1,0 +1,25 @@
+@api = http://localhost:3000/Exercises 
+###
+GET {{api}}
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "title": "patada",
+    "description": "Ejercicios para gluteo"
+}
+###
+GET {{api}}/3
+###
+GET {{api}}/count
+###
+DELETE {{api}}/2
+###
+PUT {{api}}/5
+Content-Type: application/json
+
+{
+    "title": "Tijeritas",
+    "description": "Ejercicio para trabajar las piernitas"
+}
